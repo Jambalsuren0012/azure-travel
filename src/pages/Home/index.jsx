@@ -3,6 +3,8 @@ import Navbar from "../../components/Navbar";
 import "./style.css";
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
+import { Category } from "@mui/icons-material";
+import category from "../../components/Catergory";
 
 const Home = () => {
   const cards = [
@@ -31,7 +33,7 @@ const Home = () => {
             The whole world awaits.
           </Typography>
           <div className="input">
-            <div className="negEgnee3">
+            <div className="row3">
               <img
                 style={{ height: "30px" }}
                 src="./images/searchLogo.svg"
@@ -39,14 +41,14 @@ const Home = () => {
               />
               <input type="text" placeholder="Search destinations, hotels" />
             </div>
-            <div className="negEgnee2">
-              <div className="negEgnee">
+            <div className="row2">
+              <div className="row">
                 <img src="./images/checkImg.svg" alt="" />
               </div>
-              <div className="negEgnee">
+              <div className="row">
                 <img src="./images/checkoutImg.svg" alt="" />
               </div>
-              <div className="negEgnee">
+              <div className="row">
                 <img src="./images/profile.svg" alt="" />
               </div>
               <button>
@@ -58,51 +60,7 @@ const Home = () => {
             <Typography variant="h2" sx={{ color: "white" }}>
               Top Categories
             </Typography>
-            <img className="topBla2" src="./images/topBla2.svg" alt="" />
-          </Box>
-          <Box sx={{ paddingTop: "50px" }}>
-            <Typography variant="h2" sx={{ color: "white" }}>
-              Top Vacation Destinations
-            </Typography>
-            <Box
-              sx={{
-                display: "flex",
-                gap: 36,
-                overflowX: "scroll",
-                width: "90%",
-                overflowY: "hidden",
-                position: "absolute",
-              }}
-            >
-              {cards.map((item) => (
-                <Box
-                  key={item.text}
-                  sx={{ zIndex: 99999, position: "relative" }}
-                >
-                  <img
-                    style={{
-                      height: "300px",
-                      width: "511px",
-                      borderRadius: "10px",
-                    }}
-                    src={item.imgURL}
-                    alt=""
-                  />
-                  <Typography
-                    variant="h5"
-                    sx={{
-                      top: "75%",
-                      left: "15%",
-                      color: "#FFFFFF",
-                      position: "absolute",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    {item.text}
-                  </Typography>
-                </Box>
-              ))}
-            </Box>
+            <img className="top" src="./images/top.svg" alt="" />
           </Box>
         </Box>
         <Box
@@ -118,6 +76,7 @@ const Home = () => {
           }}
         ></Box>
       </Box>
+      <category/>
       <Box className="MidlleContainer">
         <Typography variant="h3">Offers</Typography>
       </Box>

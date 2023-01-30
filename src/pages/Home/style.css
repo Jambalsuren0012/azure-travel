@@ -25,7 +25,7 @@
   justify-content: space-between;
   padding: 10px;
 }
-.negEgnee3 input {
+.row3 input {
   outline: none;
   color: #D3D3D3;
   background-color: rgba(255, 255, 255, 0);
@@ -34,26 +34,26 @@
   height: 1000px;
 }
 
-.negEgnee {
+.row {
   gap: 5px;
   display: flex;
   height: 70px;
 }
-.negEgnee2 {
+.row2 {
   display: flex;
   gap: 60px;
   align-items: center;
 }
-.negEgnee2 button {
+.row2 button {
   border: 0;
   background-color: rgba(255, 255, 255, 0);
 }
 
-.topBla2 {
+.top {
   width: 100%;
 }
 
-.negEgnee3 {
+.row3 {
   display: flex;
   align-items: center;
 }
