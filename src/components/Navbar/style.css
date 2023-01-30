@@ -1,0 +1,22 @@
+.Container {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+}
+
+.row ul {
+  color: #D3D3D3;
+}
+
+h1 {
+  color: #D3D3D3;
+}
+
+.link {
+  text-decoration: none;
+}
