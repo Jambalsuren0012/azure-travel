@@ -32,8 +32,8 @@ const Home = () => {
           >
             The whole world awaits.
           </Typography>
-          <div className="input">
-            <div className="row3">
+          <div className="row">
+            <div className="col3">
               <img
                 style={{ height: "30px" }}
                 src="./images/searchLogo.svg"
@@ -41,17 +41,17 @@ const Home = () => {
               />
               <input type="text" placeholder="Search destinations, hotels" />
             </div>
-            <div className="row2">
+            <div className="col2">
               <div className="row">
                 <img src="./images/checkImg.svg" alt="" />
               </div>
-              <div className="row">
+              <div className="col">
                 <img src="./images/checkoutImg.svg" alt="" />
               </div>
-              <div className="row">
+              <div className="col">
                 <img src="./images/profile.svg" alt="" />
               </div>
-              <button>
+              <button className="col" >
                 <img src="./images/searchBtn.svg" alt="" />
               </button>
             </div>
@@ -77,7 +77,7 @@ const Home = () => {
         ></Box>
       </Box>
       <category/>
-      <Box className="MidlleContainer">
+      <Box className="MiddleContainer">
         <Typography variant="h3">Offers</Typography>
       </Box>
     </Box>

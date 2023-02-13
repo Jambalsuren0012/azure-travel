@@ -16,7 +16,7 @@ export default function ButtonAppBar() {
       >
         <Toolbar>
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 , color: "#D3D3D3" }}>
-            Trvlx
+            Trvlx.
           </Typography>
           <Box sx={{ display: "flex", gap: "10" }}>
             <NavLink>

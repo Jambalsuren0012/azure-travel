@@ -12,7 +12,7 @@
   padding-bottom: 100px;
 }
 
-.input {
+.row {
   width: 100%;
   border: 0;
   height: 50px;
@@ -25,7 +25,7 @@
   justify-content: space-between;
   padding: 10px;
 }
-.row3 input {
+.col3 input {
   outline: none;
   color: #D3D3D3;
   background-color: rgba(255, 255, 255, 0);
@@ -34,31 +34,31 @@
   height: 1000px;
 }
 
-.row {
+.col {
   gap: 5px;
   display: flex;
   height: 70px;
 }
-.row2 {
+.col2 {
   display: flex;
-  gap: 60px;
+  /* gap: 60px; */
   align-items: center;
 }
-.row2 button {
+.col3 button {
   border: 0;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(254, 248, 248, 0);
 }
 
 .top {
   width: 100%;
 }
 
-.row3 {
+.col3 {
   display: flex;
   align-items: center;
 }
 
-.MidlleContainer {
+.MiddleContainer {
   padding-right: 200px;
   padding-left: 200px;
   padding-top: 500px;

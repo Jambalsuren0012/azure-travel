@@ -11,15 +11,6 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
 export const SignIn = (props) => {
-  //   handleSubmit = (event) => {
-  //     event.preventDefault();
-  // const data = new FormData(event.currentTarget);
-  // console.log({
-  //   email: data.get("email"),
-  //   password: data.get("password"),
-  // });
-  //   };
-
   return (
     <Container component="main" maxWidth="xs">
       <Box
@@ -69,7 +60,7 @@ export const SignIn = (props) => {
             variant="contained"
             sx={{ mt: 3, mb: 2 }}
           >
-            бүртгүүлэх
+            Sign in
           </Button>
           <Grid container>
             <Button onClick={() => props.setIsSignIn(false)} variant="text">
